@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Dijital Şiddet Nedir?",
+    "description": "Dijital ortamda maruz kalınan şiddet türlerini öğrenin.",
+    "icon": "shield"
+  },
+  {
+    "title": "Gizlilik ve Güvenlik",
+    "description": "Hesaplarının güvenliğini artırmak için pratik adımlar.",
+    "icon": "lock"
+  },
+  {
+    "title": "Destek Mekanizmaları",
+    "description": "Nereden ve nasıl yardım alabileceğini keşfet.",
+    "icon": "phone"
+  }
+]

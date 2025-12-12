@@ -1,5 +1,7 @@
+import LandingCard from "@/components/landing/landing-card";
 import { PixelatedCanvas } from "@/components/ui/pixelated-canvas";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -18,12 +20,12 @@ export default function Home() {
           </p>
 
           <div className="flex gap-4">
-            <a
+            <Link
               href="/"
-              className="px-5 py-3 text-sm font-medium rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 transition"
+              className="px-5 py-3 text-sm font-medium rounded-xl bg-blue-700 text-white hover:bg-blue-500/90 transition"
             >
               Destek Al
-            </a>
+            </Link>
           </div>
         </div>
         <div>
@@ -45,6 +47,9 @@ export default function Home() {
         sampleAverage
         className="rounded-xl shadow-lg"/>
         </div>
+    </div>
+    <div className="mt-20 mx-auto max-w-6xl px-4">
+      <LandingCard/>
     </div>
     <div className="mt-20 mx-auto max-w-6xl px-4">
     </div>
