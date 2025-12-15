@@ -1,6 +1,6 @@
 import LandingCard from "@/components/landing/landing-card";
+import LandingMessage from "@/components/landing/landing-message";
 import { PixelatedCanvas } from "@/components/ui/pixelated-canvas";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -47,12 +47,13 @@ export default function Home() {
         sampleAverage
         className="rounded-xl shadow-lg"/>
         </div>
-    </div>
-    <div className="mt-20 mx-auto max-w-6xl px-4">
-      <LandingCard/>
-    </div>
-    <div className="mt-20 mx-auto max-w-6xl px-4">
-    </div>
+        </div>
+        <div className="mt-20 mx-auto max-w-6xl px-4">
+          <LandingCard/>
+        </div>
+        <div className="mt-20 mx-auto max-w-6xl px-4">
+          <LandingMessage/>
+        </div>
     </section>
   );
 }
