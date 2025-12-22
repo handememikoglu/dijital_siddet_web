@@ -4,9 +4,12 @@ import Link from "next/link";
 import { ShieldCheck, Menu, X } from "lucide-react";
 import { useState } from "react";
 import QuikExitButton from "../ui/quikExitButton";
+import { usePathname } from "next/navigation";
+import { cn } from "@/lib/utils";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
 
   const navItems = [
     { label: "Dijital Şiddet Nedir?", href: "/dijital-siddet-nedir" },
@@ -33,15 +36,23 @@ export default function Header() {
         </Link>
 
         <nav className="hidden md:flex items-center gap-6">
-          {navItems.map((item) => (
-            <Link
+          {navItems.map((item) => {
+            const isActive = pathname === item.href;
+            return (
+             <Link
               key={item.href}
               href={item.href}
-              className="text-sm font-medium  hover:bg-gray-500/20 hover:p-2 hover:rounded-md transition"
+              className={cn(
+                "text-sm font-medium transition-colors",
+                isActive
+                  ? "text-blue-600 "
+                  : "text-neutral-600 hover:text-neutral-900"
+              )}
             >
               {item.label}
             </Link>
-          ))}
+            )
+          })}
 
           <QuikExitButton />
         </nav>
