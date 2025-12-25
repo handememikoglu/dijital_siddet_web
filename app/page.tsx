@@ -21,7 +21,7 @@ export default function Home() {
 
           <div className="flex gap-4">
             <Link
-              href="/"
+              href="/yardim-kaynaklari"
               className="px-5 py-3 text-sm font-medium rounded-xl bg-blue-700 text-white hover:bg-blue-500/90 transition"
             >
               Destek Al

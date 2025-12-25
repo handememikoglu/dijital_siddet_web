@@ -9,7 +9,7 @@ export default function LandingMessage() {
                 ulaşmak için aşağıdaki butona tıklayınız.
             </p>
             <div className="p-4">
-                <Link href={"/"} className="bg-blue-700 text-white px-4 py-2 rounded-2xl inline-block">Destek ve Yardım Kaynakları</Link>
+                <Link href={"/yardim-kaynaklari"} className="bg-blue-700 text-white px-4 py-2 rounded-2xl inline-block">Destek ve Yardım Kaynakları</Link>
             </div>
         </div>
     )

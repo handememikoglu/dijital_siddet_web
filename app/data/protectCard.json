@@ -1,17 +1,17 @@
 [
     {
-        "icon": "shield",
+        "icon": "computer",
         "title":"Kanıtları Sakla",
-        "description":"Dijital şiddete maruz kaldığında, ekran görüntüleri alarak ve mesajları kaydederek kanıtları sakla."
+        "description":"Mesajların, yorumların veya paylaşımların ekran görüntülerini alın. Bunlar durumu bildirirken önemli kanıtlar olabilir."
     },
     {
-        "icon": "shield",
-        "title":" Sakla",
-        "description":"Dijital şiddete maruz kaldığında, ekran görüntüleri alarak ve mesajları kaydederek kanıtları sakla."
+        "icon": "ban",
+        "title":" Engelle ve Bildir",
+        "description":"Sizi rahatsız eden kişileri sosyal medya platformlarından engelleyin ve platformun kurallarını ihlal ettiklerini bildirin."
     },
     {
-        "icon": "shield",
-        "title":"yardım iste",
-        "description":"Dijital şiddete maruz kaldığında, ekran görüntüleri alarak ve mesajları kaydederek kanıtları sakla."
+        "icon": "life",
+        "title":"Destek İste",
+        "description":"Güvendiğiniz bir arkadaşınızla, aile üyenizle veya bir profesyonelle konuşun. Yalnız olmadığınızı unutmayın."
     }
 ]

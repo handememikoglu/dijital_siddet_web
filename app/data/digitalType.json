@@ -1,17 +1,22 @@
 [
   {
-    "title": "Dijital Şiddet Nedir?",
-    "description": "Dijital ortamda maruz kalınan şiddet türlerini öğrenin.",
-    "icon": "shield"
+    "title": "Çevrimiçi Cinsel Taciz",
+    "description": "Dijital ortamlarda fiziksel-cinsel şiddetletehdit etmek, cinsiyetçi şaklar yapmak, cinsel içerikli imalı mesajlar göndermek...",
+    "icon": "alert"
   },
   {
-    "title": "Gizlilik ve Güvenlik",
-    "description": "Hesaplarının güvenliğini artırmak için pratik adımlar.",
-    "icon": "lock"
+    "title": "Çevrimiçi Israrlı Takip",
+    "description": "Mesajlaşma - sosyal medya platformları, e-posta ve telefon yoluylatekrar eden rahatsız edici davranışlar...",
+    "icon": "eye"
   },
   {
-    "title": "Destek Mekanizmaları",
-    "description": "Nereden ve nasıl yardım alabileceğini keşfet.",
-    "icon": "phone"
+    "title": "Görsel Odaklı Taciz",
+    "description": "Gizli çekim, çalınan içerik, hesap ele geçirme sonrası elde edilen görüntüleri yayma...",
+    "icon": "card"
+  },
+  {
+    "title": "Cinsiyetçi Nefret Söylemi",
+    "description": "Cinsiyetçi ve hakaret içeren yorumların yazılması, beden utandırma...",
+    "icon": "message"
   }
 ]
