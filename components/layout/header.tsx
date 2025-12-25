@@ -26,7 +26,7 @@ export default function Header() {
           </span>
           <div className="flex flex-col leading-tight">
             <span className="text-sm font-semibold tracking-tight group-hover:opacity-90">
-              Dijital Güvenli Alan
+              Güveli Dijital
             </span>
             <span className="text-[11px] text-muted-foreground">
               Dijital şiddete karşı farkındalık ve destek

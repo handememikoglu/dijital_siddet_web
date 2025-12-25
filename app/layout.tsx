@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dijital Güvenli Alan",
+  title: "Güvenli Dijital",
   description: "Dijital şiddete karşı farkındalık ve destek",
 };
 
