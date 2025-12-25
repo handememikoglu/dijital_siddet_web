@@ -12,7 +12,6 @@ export default function Header() {
   const pathname = usePathname();
 
   const navItems = [
-    { label: "Dijital Şiddet Nedir?", href: "/dijital-siddet-nedir" },
     { label: "Yardım Kaynakları", href: "/yardim-kaynaklari" },
     { label: "Haklarım", href: "/haklarim" },
   ];

@@ -36,8 +36,9 @@ export default function Page() {
     <div className="mx-auto max-w-4xl px-4 py-6">
       <div className="mb-6">
         <h1 className="text-2xl font-bold tracking-tight">Suç ve Kanunlar</h1>
-        <p className="mt-2 text-sm text-muted-foreground">
-          Her TCK maddesi tek kartta; alt fıkralar içeride listelenir.
+        <p className="mt-2 max-w-lg text-lg text-muted-foreground">
+          Yaşadığınız süreci güvendiğiniz insanlarla paylaşın. Yasal süreci öğrenmek için konu ile ilgili çalışan avukatlarla iletişime geçin. 
+          Baroların Kadın Danışma Merkezleri ile görüşün.
         </p>
       </div>
 
