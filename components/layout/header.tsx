@@ -21,7 +21,7 @@ export default function Header() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2">
 
         <Link href="/" className="flex items-center gap-2 group">
-          <span className="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-tr from-emerald-500 to-sky-500 text-background shadow-md">
+          <span className="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-linear-to-tr from-emerald-500 to-sky-500 text-background shadow-md">
             <ShieldCheck className="h-5 w-5" />
           </span>
           <div className="flex flex-col leading-tight">
